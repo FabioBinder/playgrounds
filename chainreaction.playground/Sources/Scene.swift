@@ -14,8 +14,9 @@ public enum Global {
     static public let ELEMENT_SIZE = 31
 }
 
+// Direções dos movimentos
 enum Directions: Int {
-    case SE = 0, SW = 1, NW = 2, NE = 3
+    case SE, SW, NW, NE
 }
 
 // Representação de cada elemento.
